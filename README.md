@@ -30,8 +30,7 @@
 	"contrycode": "57"
       }
 	]
-}
-json```
+}```
 
 
 #### Find all user
@@ -53,8 +52,7 @@ json```
 	"contrycode": "1"
       }
 	]
-}
-json```
+}```
 #### Delete User
 - http://localhost:8080/desafio/tecnico/users/delete/{id}
 
