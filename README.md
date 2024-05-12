@@ -60,11 +60,12 @@
 
   
 ### Diagrama
-![POST-CREATE](https://github.com/armenki/desafio-tecnico/assets/61056513/93023965-ce53-4815-bffb-5c61d85f19ae)
-![GET- ALLUSERS](https://github.com/armenki/desafio-tecnico/assets/61056513/2ed70eea-5b9e-45d6-8b2a-adedad573c9e)
-![GET-FINDBYID](https://github.com/armenki/desafio-tecnico/assets/61056513/2e430699-8733-49e8-b4f8-d6b06fe3f4ad)
-![PUT-UPDATE](https://github.com/armenki/desafio-tecnico/assets/61056513/f0a52225-c3a5-486a-92d7-c076087d0d27)
-![DELETE-DELETE](https://github.com/armenki/desafio-tecnico/assets/61056513/d4ba76c2-9c54-466b-b9fe-e2fe33b3f35f)
+![POST-CREATE](https://github.com/armenki/desafio-tecnico/assets/61056513/8d125f59-01f8-462f-9a2b-2de3fc7e192d)
+![GET- ALLUSERS](https://github.com/armenki/desafio-tecnico/assets/61056513/0e6b930e-976b-4543-a253-e5a374773bb0)
+![GET-FINDBYID](https://github.com/armenki/desafio-tecnico/assets/61056513/fd2e21bb-cda0-412f-9030-5f8cf9ac962f)
+![DELETE-DELETE](https://github.com/armenki/desafio-tecnico/assets/61056513/af98424f-54d1-4da5-8d04-c852ab57e149)
+![PUT-UPDATE](https://github.com/armenki/desafio-tecnico/assets/61056513/4f86f057-8c09-4db5-a1a7-3b79baec2479)
+
 
 
 
