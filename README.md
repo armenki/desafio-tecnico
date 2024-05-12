@@ -2,7 +2,7 @@
 - java 17.0.10
 - maven 3.9.6
 - Eclipse 4.30.0
-- springboot spring tools 4 (aka spring tool suite 4) 4.22.1
+- springboot 3.2.5
 - lombok 1.18.3
 
 ### Compilación
