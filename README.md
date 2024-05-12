@@ -17,6 +17,8 @@
 - al ser un base de datos h2 que solo utiliza memoria no se necesita los script ya que esta automaticamente crea la base de datos al momento de inicializar la aplicacion
 
 ### Endpoints
+#### Swagger
+- http://localhost:8080/swagger-ui/index.html
 #### Create user
 - http://localhost:8080/desafio/tecnico/users/create
 ```json
