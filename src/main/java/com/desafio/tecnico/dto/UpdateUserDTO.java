@@ -1,6 +1,7 @@
 package com.desafio.tecnico.dto;
 
 import java.util.List;
+import java.util.UUID;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
@@ -12,9 +13,10 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
-public class RequestUserDTO {
+@NoArgsConstructor
+public class UpdateUserDTO {
+	private UUID id;
 
 	@NotBlank
 	private String name;

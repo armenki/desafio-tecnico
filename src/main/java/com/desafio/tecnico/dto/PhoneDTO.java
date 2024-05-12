@@ -13,16 +13,16 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class PhoneDTO {
-	
-	@NotBlank	
+
+	@NotBlank
 	private String number;
-	
+
 	@NotBlank
 	@JsonProperty(value = "citycode")
 	private String cityCode;
-	
+
 	@NotBlank
 	@JsonProperty(value = "contrycode")
 	private String contrycode;
-	
+
 }
