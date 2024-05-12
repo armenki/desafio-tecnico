@@ -30,7 +30,8 @@
 	"contrycode": "57"
       }
 	]
-}```
+}
+```
 
 
 #### Find all user
@@ -52,7 +53,8 @@
 	"contrycode": "1"
       }
 	]
-}```
+}
+```
 #### Delete User
 - http://localhost:8080/desafio/tecnico/users/delete/{id}
 
