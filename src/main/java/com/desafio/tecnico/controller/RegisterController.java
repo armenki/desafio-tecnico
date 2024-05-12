@@ -38,7 +38,7 @@ public class RegisterController {
 		return new ResponseEntity<>(saved, HttpStatus.CREATED);
 	}
 
-	@GetMapping("List")
+	@GetMapping("list")
 	public ResponseEntity<List<ResponseUserDTO>> getAllUsers() throws Exception {
 		List<ResponseUserDTO> users = userService.getAllUsers();
 		return new ResponseEntity<>(users, HttpStatus.OK);
@@ -50,7 +50,7 @@ public class RegisterController {
 		return new ResponseEntity<>(user, HttpStatus.OK);
 	}
 
-	@DeleteMapping("{id}")
+	@DeleteMapping("delete/{id}")
 	public ResponseEntity<String> deleteUser(@Valid @PathVariable("id") UUID userId) throws Exception {
 		userService.deleteUser(userId);
 		return new ResponseEntity<>("Usuario eliminado", HttpStatus.OK);

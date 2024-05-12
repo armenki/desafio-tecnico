@@ -61,7 +61,10 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public void deleteUser(UUID userId) {
-		userRepository.deleteById(userId);
+		if (!userRepository.existsById(userId)) {
+	        throw new InvalidFormatException(Constants.USER_NOT_FOUND_MESSAGE);
+	    }
+	    userRepository.deleteById(userId);
 	}
 
 	public ResponseUserDTO updateUser(UpdateUserDTO updateUserDTO) throws Exception {
