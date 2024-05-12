@@ -20,6 +20,7 @@
 #### Create user
 - http://localhost:8080/desafio/tecnico/users/create
 ```json
+{
 "name": "Juan Rodriguez",
 "email": "juan@rodriguez.org",
 "password": "hunter2",
@@ -43,6 +44,7 @@
 #### Update user
 - http://localhost:8080/desafio/tecnico/users/update/{id}
 ```json
+{
 "name": "Pedro Rodriguez",
 "email": "juan@rodriguez.org",
 "password": "hunter25",
