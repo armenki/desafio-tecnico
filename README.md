@@ -24,14 +24,14 @@
 "email": "juan@rodriguez.org",
 "password": "hunter2",
 "phones": [
-	{
-	"number": "1234567",
+      {
+        "number": "1234567",
 	"citycode": "1",
 	"contrycode": "57"
-	}
+      }
 	]
 }
-```
+json```
 
 
 #### Find all user
@@ -44,17 +44,17 @@
 - http://localhost:8080/desafio/tecnico/users/update/{id}
 ```json
 "name": "Pedro Rodriguez",
-"email": "pedro@rodriguez.org",
-"password": "abcdfeg3",
+"email": "juan@rodriguez.org",
+"password": "hunter25",
 "phones": [
-	{
-	"number": "1234567",
-	"citycode": "1",
-	"contrycode": "57"
-	}
+      {
+        "number": "46",
+	"citycode": "5",
+	"contrycode": "1"
+      }
 	]
 }
-```
+json```
 #### Delete User
 - http://localhost:8080/desafio/tecnico/users/delete/{id}
 
