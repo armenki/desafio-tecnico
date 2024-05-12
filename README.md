@@ -17,7 +17,7 @@
 - al ser un base de datos h2 que solo utiliza memoria no se necesita los script ya que esta automaticamente crea la base de datos al momento de inicializar la aplicacion
 
 ### Endpoints
-#### create user
+#### Create user
 - http://localhost:8080/desafio/tecnico/users/create
 ```
 "name": "Juan Rodriguez",
@@ -34,7 +34,7 @@
 ```
 
 
-#### find all user
+#### Find all user
 - http://localhost:8080/desafio/tecnico/users/list
 
 #### find By Id User
