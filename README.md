@@ -24,12 +24,12 @@
 "email": "juan@rodriguez.org",
 "password": "hunter2",
 "phones": [
-			{
-				"number": "1234567",
-				"citycode": "1",
-				"contrycode": "57"
-			}
-		]
+	{
+	"number": "1234567",
+	"citycode": "1",
+	"contrycode": "57"
+	}
+	]
 }
 ```
 
@@ -47,12 +47,12 @@
 "email": "pedro@rodriguez.org",
 "password": "abcdfeg3",
 "phones": [
-			{
-				"number": "1234567",
-				"citycode": "1",
-				"contrycode": "57"
-			}
-		]
+	{
+	"number": "1234567",
+	"citycode": "1",
+	"contrycode": "57"
+	}
+	]
 }
 ```
 #### Delete User
