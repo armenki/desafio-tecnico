@@ -1,4 +1,4 @@
-package com.desafio.tecnico.Utils;
+package com.desafio.tecnico.exception;
 
 public class InvalidFormatException extends RuntimeException {
 

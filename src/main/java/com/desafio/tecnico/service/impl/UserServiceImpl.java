@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.desafio.tecnico.Utils.Constants;
-import com.desafio.tecnico.Utils.InvalidFormatException;
 import com.desafio.tecnico.Utils.Validator;
 import com.desafio.tecnico.dto.PhoneDTO;
 import com.desafio.tecnico.dto.RequestUserDTO;
@@ -18,6 +17,7 @@ import com.desafio.tecnico.dto.ResponseUserDTO;
 import com.desafio.tecnico.dto.UpdateUserDTO;
 import com.desafio.tecnico.entity.Phone;
 import com.desafio.tecnico.entity.User;
+import com.desafio.tecnico.exception.InvalidFormatException;
 import com.desafio.tecnico.jwt.JwtUtils;
 import com.desafio.tecnico.repository.UserRepository;
 import com.desafio.tecnico.service.UserService;
